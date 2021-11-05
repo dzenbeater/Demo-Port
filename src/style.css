@@ -64,12 +64,9 @@ p {
     font-size: 30px;
 }
 
-.sub-text {
-    font-size: 15px;
-    font-weight: 200;
-}
 
-.hero-area {
+
+.hero-area ,.headshot-container{
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -106,7 +103,8 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 80px;
+    padding-left: 200px;
+    margin-bottom: 50px;
 }
 
 
@@ -114,11 +112,17 @@ p {
     width: 300px;
     border-radius: 150px;
     float: right;
+    
+}
+
+.signia {
+    padding-top: 20px;
 }
 
 .headshot-container {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 
 }
 
@@ -131,6 +135,7 @@ p {
 
 
 .card-container {
+    margin-top: 35px;
     display: flex;
     justify-content: space-around;
 }
