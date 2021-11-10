@@ -1,8 +1,9 @@
-const hamburgerButton = document.getElementById('hamburger')
-const navlist = document.getElementById('navList')
+const scrollButton = $('#scrollbutton')
+const navlist = $('#navlist')
 
-function toggleButton(){
-    navList.classList.toggle('show')
+function toggleButton (){
+    navlist.toggle('show')
+
 }
 
-hamburgerButton.addEventListener('click, toggleButton')
+scrollButton.on('click', toggleButton)
